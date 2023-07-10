@@ -10,11 +10,11 @@ Intrucciones:
 En terminal ejecuta los siguientes comandos:
 <hr></hr>
 linux:
-
-$ git clone https://github.com/XxrrxX/Conversor_java
-$ cd Conversor_java
-$ sh start.sh
-
+<ul>
+<li>$ git clone https://github.com/XxrrxX/Conversor_java</li>
+<li>$ cd Conversor_java</li>
+<li>$ sh start.sh</li>
+</ul>
 windows:
 
 $ git clone https://github.com/XxrrxX/Conversor_java
