@@ -5,8 +5,21 @@
 para ejecutar en linux: 
 ejecuta sh start.sh en terminal
 
-par ejecutar en windows:
-ejecuta cmd start.bat en terminal
+Intrucciones:
+
+En terminal ejecuta los siguientes comandos:
+<hr></hr>
+linux:
+
+$ git clone https://github.com/XxrrxX/Conversor_java
+$ cd Conversor_java
+$ sh start.sh
+
+windows:
+
+$ git clone https://github.com/XxrrxX/Conversor_java
+$ cd Conversor_java
+$ start start.bat
 <hr></hr>
 
 Ejemplo para el uso del conversor:
