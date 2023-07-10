@@ -16,10 +16,11 @@ linux:
 <li>$ sh start.sh</li>
 </ul>
 windows:
-
-$ git clone https://github.com/XxrrxX/Conversor_java
-$ cd Conversor_java
-$ start start.bat
+<ul>
+<li>$ git clone https://github.com/XxrrxX/Conversor_java</li>
+<li>$ cd Conversor_java</li>
+<li>$ start start.bat</li>
+</ul>
 <hr></hr>
 
 Ejemplo para el uso del conversor:
