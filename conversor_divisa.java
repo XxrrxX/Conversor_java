@@ -3,12 +3,13 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.MalformedURLException;
 import java.io.*;
-import org.json.*;    
+import org.json.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.lang.NumberFormatException;
 import java.lang.NullPointerException;
+import java.lang.ClassCastException;
 class conversor_divisa{
 public conversor_divisa(){
 
@@ -31,15 +32,32 @@ int cont = 0;
                     BufferedReader br = new BufferedReader(new InputStreamReader(im));
                     String line=br.readLine();
                     JSONObject jo = new JSONObject(line);
+Double D1;
+Double D2;
+String e1;
+String e2; 
+DecimalFormat f2 = new DecimalFormat("###.##");
+try{    
                     BigDecimal d1 = (BigDecimal) jo.getJSONObject("rates").get(divisa1);
-                    BigDecimal d2 = (BigDecimal) jo.getJSONObject("rates").get(divisa2);
-                    Double div =  d2.setScale(2,RoundingMode.HALF_DOWN).doubleValue() /d1.setScale(2,RoundingMode.HALF_DOWN).doubleValue();             
+                    D1 =  d1.setScale(2,RoundingMode.HALF_DOWN).doubleValue();
+}catch(java.lang.ClassCastException ex){
+                    e1 = jo.getJSONObject("rates").get(divisa1).toString();    
+                    D1= Double.parseDouble(e1);
+}
+try{    
+                    BigDecimal d2= (BigDecimal) jo.getJSONObject("rates").get(divisa2);
+                    D2 = d2.setScale(2,RoundingMode.HALF_DOWN).doubleValue();
+}catch(java.lang.ClassCastException ex){
+                    e2 = jo.getJSONObject("rates").get(divisa2).toString();    
+                    D2= Double.parseDouble(e2);
+}
+                    Double div = (D2 / D1);             
                     Double mdiv = div * valor;
                     DecimalFormat f1 = new DecimalFormat("###.##");
                     JOptionPane.showMessageDialog(null,"$"+f1.format(valor)+" "+divisa1+" es igual a:$"+f1.format(mdiv)+" "+divisa2);   
                     cont = JOptionPane.showConfirmDialog(null,"Deseas realizar otra conversion ?");
-                                 
-                }
+}                                 
+                
             }catch (Exception e){
                 System.out.println(e);
             }
