@@ -2,9 +2,9 @@
 ![Logo](https://i.imgur.com/Bz0yTs5.jpg)
 <h1 align="center"> Challenges Back End ONE - G5 </h1>
 <h2 align="center"> Conversor Java </h2>
-para ejecutar en linux: 
-ejecuta sh start.sh en terminal
 
+Esta herramienta es un conversor de divisas y temperatura.
+<hr></hr>
 Intrucciones:
 
 En terminal ejecuta los siguientes comandos:
