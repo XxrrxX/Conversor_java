@@ -7,4 +7,4 @@ ejecuta sh start.sh en terminal
 par ejecutar en windows:
 ejecuta cmd start.bat en terminal
 
-![Logo](https://i.imgur.com/XotRbhM.mp4)
+[![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)](https://www.youtube.com/watch?v=configuroweb)
