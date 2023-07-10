@@ -1,4 +1,4 @@
-![Logo](https://imgur.com/a/YTO5QU5)
+![Logo](https://i.imgur.com/Bz0yTs5.jpg)
 
 para ejecutar en linux: 
 ejecuta sh start.sh
