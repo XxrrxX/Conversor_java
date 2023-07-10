@@ -7,4 +7,4 @@ ejecuta sh start.sh
 par ejecutar en windows:
 ejecut cmd start.bat
 
-![vid ejemplo](https://imgur.com/gallery/a0QR9kF)
+![vid ejemplo](https://imgur.com/gallery/a0QR9kF.mov)
