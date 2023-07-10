@@ -18,10 +18,10 @@ public static void main(String[]Args) throws MalformedURLException{
 int cont = 0;
     try{
     while(cont == 0){
-        String divisa1 =(JOptionPane.showInputDialog(null,"Seecciona divisa a convertir","Menu",JOptionPane.PLAIN_MESSAGE,null,new Object[] {"MXN","USD","GBP","EUR","CAD","ARS","BRL","CNY","COP","CLP","CUP","JPY"},"Seleciona")).toString();
+        String divisa1 =(JOptionPane.showInputDialog(null,"Seecciona divisa a convertir","Menu",JOptionPane.PLAIN_MESSAGE,null,new Object[] {"MXN","USD","GBP","KRW","EUR","CAD","ARS","BRL","CNY","COP","CLP","CUP","JPY"},"Seleciona")).toString();
         try{
             Double valor = Double.parseDouble(JOptionPane.showInputDialog(null,"Ingresa canidad a convertir en "+divisa1+": "));
-            String divisa2 =(JOptionPane.showInputDialog(null,"Convertir $"+valor+" "+ divisa1 +" a: ","Menu",JOptionPane.PLAIN_MESSAGE,null,new Object[] {"MXN","USD","GBP,"EUR","CAD","ARS","BRL","CNY","COP","CLP","CUP"."JPY"},"Seleciona")).toString();
+            String divisa2 =(JOptionPane.showInputDialog(null,"Convertir $"+valor+" "+ divisa1 +" a: ","Menu",JOptionPane.PLAIN_MESSAGE,null,new Object[] {"MXN","USD","GBP,"KRW","EUR","CAD","ARS","BRL","CNY","COP","CLP","CUP"."JPY"},"Seleciona")).toString();
             String link = "http://api.exchangeratesapi.io/v1/latest?access_key=7e228ea51f62d79794c5041904121b10&symbols="+divisa1+","+divisa2;
             try{
                 URL u = new URL(link);
