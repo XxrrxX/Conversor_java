@@ -6,3 +6,5 @@ ejecuta sh start.sh
 
 par ejecutar en windows:
 ejecut cmd start.bat
+
+![Logo](https://imgur.com/gallery/a0QR9kF)
