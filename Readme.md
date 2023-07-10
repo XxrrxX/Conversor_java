@@ -6,7 +6,8 @@ ejecuta sh start.sh
 
 par ejecutar en windows:
 ejecut cmd start.bat
-<video src="https://imgur.com/a/a0QR9" width="420"  height="240">
+<video src="https://i.imgur.com/K81an0N.mp4
+km" width="420"  height="240">
 Lo sentimos. Este vídeo no puede reproducirse en este navegador.<br>
 Puedes descargar el video aqui: <a href="https://imgur.com/gallery/a0QR9kF">Enlace</a>. 
 </video>
